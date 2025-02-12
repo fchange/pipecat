@@ -28,6 +28,7 @@ dependencies = [
     "loguru~=0.7.3",
     "Markdown~=3.7",
     "numpy~=1.26.4",
+    "openai>=1.59.9",
     "Pillow~=11.1.0",
     "protobuf~=5.29.3",
     "pydantic~=2.10.5",
