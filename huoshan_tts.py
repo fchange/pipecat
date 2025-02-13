@@ -165,7 +165,7 @@ class HuoShanAudioTTSService(TTSService, WebsocketService):
                 "cluster": self._cluster
             },
             "user": {
-                "uid": uuid.uuid4(),
+                "uid": self._request_id
             },
             "audio": {
                 "voice_type": self._voice_type,
